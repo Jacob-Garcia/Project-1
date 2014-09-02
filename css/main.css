@@ -1,11 +1,12 @@
 body {
-	background-color: black;
+    background-color: black;
 }
 .Opener {
 	text-align: left;
 }
 .About-Me {
 	text-align: center;
+	border-color: white;
 }
 div {
 	border-color: white;
@@ -13,11 +14,23 @@ div {
 	border-width: 1px;
 }
 
-.container {
-	border-color: white;
+.Sub-Text {
+	border-color: black;
 	padding: 10px;
+	text-align: left;
 }
-
-.About-Me {
-	border-color: white;
+.row {
+    text-align: center;
+    color: white;
+}
+html {
+	background-image: url(MostlyGoth.png);
+	background-size: 1000px;
+}
+.image {
+	background-image: url(Rock-HeavyMetal.png);
+	background-size: 890px
+}
+.nav-justified {
+	text-align: center;
 }
