@@ -34,3 +34,7 @@ html {
 .nav-justified {
 	text-align: center;
 }
+.thumbnail {
+	background-image: url(BestoftheBeast.png);
+	background-size: 500px;
+}
