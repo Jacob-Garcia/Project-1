@@ -31,10 +31,19 @@ html {
 	background-image: url(Rock-HeavyMetal.png);
 	background-size: 890px
 }
-.nav-justified {
-	text-align: center;
-}
 .thumbnail {
 	background-image: url(BestoftheBeast.png);
 	background-size: 500px;
+	height: 300px;
+	border-width: 0px;
+}
+.col-xs-4 {
+	float: left;
+	margin-left: 10%;
+}
+.thumbnail2 {
+	background-image: url(AmericanPsycho.png);
+	border-width: 0px;
+	background-size: 500px;
+	height: 300px;
 }
