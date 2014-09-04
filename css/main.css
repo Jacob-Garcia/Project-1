@@ -47,3 +47,7 @@ html {
 	background-size: 500px;
 	height: 300px;
 }
+.modal-content {
+	color: white;
+	background-color:  black;
+}
