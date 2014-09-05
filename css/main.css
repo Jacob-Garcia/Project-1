@@ -32,8 +32,7 @@ html {
 	font-size: 20px;
 }
 .image {
-	background-image: url(Rock-HeavyMetal.png);
-	background-size: 890px
+       background-color: black;
 }
 .thumbnail {
 	background-image: url(BestoftheBeast.png);
