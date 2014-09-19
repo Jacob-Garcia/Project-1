@@ -18,3 +18,11 @@
         font-size: 0.8em; /* 0.8x default size */
         }
     }
+@media all and (max-width: 320px) {
+	body {
+		font-size: 0.2em;
+	}
+}
+.jumbotron {
+	background-color: black;
+}
