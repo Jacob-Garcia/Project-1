@@ -1,7 +1,7 @@
 #carousel-example-generic {
        width: 850px;
        height: 850px;
-       margin-left: 20%;
+       margin-right: 20%;
 }
 @media all and (max-width: 1200px) { /* screen size until 1200px */
     body {
