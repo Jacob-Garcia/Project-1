@@ -21,9 +21,14 @@
 </div>
 <body>
 <div class="FavoriteAlbums">
-<audio controls style
-                  <source src="audio/KISS - Detroit Rock City.mp3" type="audio/mpeg">
-                      </audio>
+ <embed name="music_playlist"
+  src="music_playlist.m3u"
+  width="300"
+  height="90" 
+  loop="false"
+  hidden="false"
+  autostart="true">
+ </embed>
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="margin-right: 100%;">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -52,10 +57,9 @@
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a>
 </div>
-
 </div>
-</body>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+</body>
 </html>
