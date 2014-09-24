@@ -3,6 +3,9 @@
        height: 850px;
        margin-right: 20%;
 }
+.jumbotron {
+	   background-color: gray;
+}
 @media all and (max-width: 1200px) { /* screen size until 1200px */
     body {
         font-size: 1.5em; /* 1.5x default size */
@@ -18,11 +21,8 @@
         font-size: 0.8em; /* 0.8x default size */
         }
     }
-@media all and (max-width: 320px) {
-	body {
-		font-size: 0.2em;
+@media (max-width: 320px) {  
+        body {
+        font-size: 0.2em;	
+        }      
 	}
-}
-.jumbotron {
-	background-color: black;
-}
